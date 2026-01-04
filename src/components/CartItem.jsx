@@ -3,6 +3,7 @@ import styles from './CartItem.module.css';
 import { CartContext } from '../context/CartContext';
 
 const CartItem = ({ item }) => {
+  
   const { removeFromCart, updateQuantity } = useContext(CartContext);
 
   const handleQuantityChange = (e) => {

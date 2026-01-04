@@ -1,0 +1,50 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.itemDetails {
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.price {
+  font-size: 0.875rem;
+  color: #666;
+}
+.numAndBtn{
+  display: flex-row;
+}
+.butt
+.quantityControl {
+  margin: 0 1rem;
+}
+
+.quantityInput {
+  width: 60px;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.removeButton {
+  background: none;
+  border: 1px solid #e53e3e;
+  color: #e53e3e;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}

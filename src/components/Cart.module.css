@@ -1,0 +1,12 @@
+.cart {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.cartSummary {
+  margin-top: 1rem;
+  text-align: right;
+  font-weight: bold;
+}
